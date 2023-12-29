@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+}
+
+header {
+    background: radial-gradient(1086px at 1.1% 96.2%, rgb(1, 44, 66) 0%, rgb(163, 221, 253) 53.6%);
+    color: rgb(87, 76, 76);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+main {
+    
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 24px;
+    padding: 10px;
+    margin-bottom: 0.5em;
+}
+input{
+    background-color:transparent;
+    font-size: 20px;
+    padding: 15px;
+}
+
+textarea {
+    background-color:transparent;
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+textarea:hover {
+    padding: 20px;
+    height: 150px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: 2px solid rgb(41, 42, 41);
+}
+button{
+    font-family: 'Pixelify Sans', sans-serif;
+    outline: none;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 500px;
+    transition-duration: .3s;
+    border:  2px solid rgb(152, 222, 152);
+    padding: 16px 14px 18px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: transparent;
+ 
+}
+button:hover{
+    color: #fff;
+    background-color: #16181a;
+}
